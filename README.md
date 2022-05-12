@@ -1,3 +1,5 @@
+    # Sign Language Translator into text and speech
+    
     PROJECT AIMS
  
     • The aim of this study is to find the possibilities of using Deep Neural Network (DNN) for translating sign languages into speech and text format through human       hand gestures.
@@ -20,6 +22,7 @@
 # SYSTEM DESIGN AND DEVELOPMENT
 
 The below figure illustrates the design framework of the proposed system based on the design schematic.
+
 ![Picture1](https://user-images.githubusercontent.com/58666940/168078886-63cb904d-e574-40b3-a7fb-43a99961a7af.png)
      
       Structure of the conceptual framework
