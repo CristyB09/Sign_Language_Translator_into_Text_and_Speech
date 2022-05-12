@@ -56,7 +56,7 @@ The present section discusses the experimental platform for the proposed real ti
 
     Block Diagram of Hardware Design
     
-    # Jetson Nano Developer Kit
+# Jetson Nano Developer Kit
 
 The system has connection to the monitor display, audio speaker, mouse, keyboard, SSD-hard drive, Wi-Fi and power supply.
 
