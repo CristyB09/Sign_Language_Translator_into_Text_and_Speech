@@ -62,5 +62,18 @@ The system has connection to the monitor display, audio speaker, mouse, keyboard
 
 ![Picture5](https://user-images.githubusercontent.com/58666940/168084695-1b2a6aec-1573-472b-bdef-f58ec8247e94.jpg)
 
+Below is a description of the features included in the NVIDIA Jetpack SDK. The Jetpack SDK includes libraries, OS images, APIs, documentation, samples, and developer tools. Additionally, it is offering the following modules:
+
+    •	TensorRT - Is a software development kit featuring high-performance and high-level deep learning inference designed for the classification, segmentation, and detection of objects in images.
+
+    •	cuDNN - A graphics acceleration library for models based on deep neural networks.   
+    •	CUDA-   This toolkit provides a complete development environment for C++ or C developers creating GPU-accelerated applications.  
+    •	Multimedia API - The decoding and encoding of video. 
+    •	Developer Tools - It includes tools for debugging, Nsight Eclipse Edition, and profiling with Nsight Compute, as well as a tool chain for cross-compiling applications.  
+    •	Computer Vision - Toolkit for computer vision and vision processing. 
+
+
+
+
 
 
