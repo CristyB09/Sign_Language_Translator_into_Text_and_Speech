@@ -33,5 +33,7 @@ This project was chosen to use SSD-Mobile-V2 as the pretrained model due to its 
 
 In accordance with Figure below, the entire process of recognizing sign language is based upon three stages. As the initial step, training datasets need to be captured. The images used in this study were captured using a web camera. It was necessary to train the datasets. This was accomplished by training an algorithm on a Jetson Nano developer kit using the transfer learning technique. As a result of the classification step, each of the output predictions has been displayed as words using the trained model.
 
-    Flow Chart of the Software System.
+  
 ![Picture2](https://user-images.githubusercontent.com/58666940/168081719-2dca3e4f-3c41-4abd-8bed-c3ecbe36445b.png)
+
+    Flow Chart of the Software System.
