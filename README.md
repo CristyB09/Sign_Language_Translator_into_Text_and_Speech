@@ -50,3 +50,8 @@ The present section discusses the experimental platform for the proposed real ti
 
 ![CaAAAAAAAAAA](https://user-images.githubusercontent.com/58666940/168083805-43f83933-4a50-4c86-9a0b-5ca3952d5122.PNG)
 
+    Block Diagram of Hardware Design
+
+![Picture4](https://user-images.githubusercontent.com/58666940/168084247-908d648d-033f-4442-b2c9-2ccd718d7b31.png)
+
+
