@@ -16,3 +16,5 @@
      • To achieve an overall training accuracy score of 90% or higher and more reliable performance metrics that can be used to validate and predict the output data of      sign language hand gesture.
      • To develop and test a trained neural network model to predict sign language hand gestures with a high level of accuracy for both the audience and the deaf            signer.  
      • To discuss the results and to make recommendations for the future improvements.
+
+![Picture1](https://user-images.githubusercontent.com/58666940/168078886-63cb904d-e574-40b3-a7fb-43a99961a7af.png)
