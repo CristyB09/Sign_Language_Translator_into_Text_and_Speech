@@ -21,7 +21,7 @@
 
 # System Design and Development
 
-The below figure illustrates the structure of the conceptual design framework of the proposed system based on the design schematic.
+    The below figure illustrates the structure of the conceptual design framework of the proposed system.
 
 ![Picture1](https://user-images.githubusercontent.com/58666940/168078886-63cb904d-e574-40b3-a7fb-43a99961a7af.png)
      
