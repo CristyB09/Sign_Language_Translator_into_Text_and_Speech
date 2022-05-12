@@ -20,3 +20,5 @@
 ![Picture1](https://user-images.githubusercontent.com/58666940/168078886-63cb904d-e574-40b3-a7fb-43a99961a7af.png)
       
       Structure of the conceptual framework
+      
+This project was chosen to use SSD-Mobile-V2 as the pretrained model due to its lightweight nature, which makes it well suited for embedded vision applications and mobile environments. MobileNet can be employed in the detection of objects, classification, and recognition of signs gestures. It is very fast in its performance, as well as more accurate when it comes to the recognition of sign language. According to this project, the goal was to achieve 99 % accuracy to detect sign language detection.
