@@ -42,16 +42,18 @@ In accordance with Figure below, the entire process of recognizing sign language
 
 The present section discusses the experimental platform for the proposed real time sign language detection. The hardware used for the proposed system is discussed specifically, as well as the process of installing all the necessary software.
 
-    Block Diagram of System Design 
 
 ![Picture3](https://user-images.githubusercontent.com/58666940/168082908-47c655fa-5024-4297-8ec2-bbfa7e453e00.png)
+
+    Block Diagram of System Design 
 
 # Hardware Selection
 
 ![CaAAAAAAAAAA](https://user-images.githubusercontent.com/58666940/168083805-43f83933-4a50-4c86-9a0b-5ca3952d5122.PNG)
 
-    Block Diagram of Hardware Design
-
+   
 ![Picture4](https://user-images.githubusercontent.com/58666940/168084247-908d648d-033f-4442-b2c9-2ccd718d7b31.png)
+
+    Block Diagram of Hardware Design
 
 
