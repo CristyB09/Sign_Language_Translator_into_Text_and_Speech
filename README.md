@@ -19,12 +19,19 @@
      • To develop and test a trained neural network model to predict sign language hand gestures with a high level of accuracy for both the audience and the deaf            signer.  
      • To discuss the results and to make recommendations for the future improvements.
 
-# SYSTEM DESIGN AND DEVELOPMENT
+# System Design and Development
 
 The below figure illustrates the structure of the conceptual design framework of the proposed system based on the design schematic.
 
 ![Picture1](https://user-images.githubusercontent.com/58666940/168078886-63cb904d-e574-40b3-a7fb-43a99961a7af.png)
      
-      
+# Pretrained Model Selection
+
 This project was chosen to use SSD-Mobile-V2 as the pretrained model due to its lightweight nature, which makes it well suited for embedded vision applications and mobile environments. MobileNet can be employed in the detection of objects, classification, and recognition of signs gestures. It is very fast in its performance, as well as more accurate when it comes to the recognition of sign language. According to this project, the goal was to achieve 99 % accuracy to detect sign language detection.
 
+# System Development
+
+In accordance with Figure below, the entire process of recognizing sign language is based upon three stages. As the initial step, training datasets need to be captured. The images used in this study were captured using a web camera. It was necessary to train the datasets. This was accomplished by training an algorithm on a Jetson Nano developer kit using the transfer learning technique. As a result of the classification step, each of the output predictions has been displayed as words using the trained model.
+
+    Flow Chart of the Software System.
+![Picture2](https://user-images.githubusercontent.com/58666940/168081719-2dca3e4f-3c41-4abd-8bed-c3ecbe36445b.png)
