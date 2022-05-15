@@ -187,5 +187,19 @@ The xml code of ‘Gun sign’
 
 ![2](https://user-images.githubusercontent.com/58666940/168478954-6dcf3b0e-f37d-4931-9ba7-4bec3b037d51.png)
 
+This (ImageSets) folder contains the id of each individual capture as well as 'test.txt', 'train', 'trainval.txt', and 'val.txt' files as shown in the figures below.
 
+![3](https://user-images.githubusercontent.com/58666940/168479111-55cc7533-df41-4c4b-8a20-90f8c7def57d.png)
+
+The data in the (JPEGImages) folder has the original 1,067 captured images, and the file called (labels.txt). 
+There are six class labels in each hand sign: 
+
+    Gun
+    Hello
+    Love
+    No
+    Peace
+    Yes
+    
+This label file typically contains one class label per line, for example:
 
