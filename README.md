@@ -96,16 +96,16 @@ The JetPack SDK from NVIDIA is the most effective solution for creating AI appli
  
 The Jetson Inference Is a library of TensorRT-accelerated deep learning networks for image recognition, object detection with localization (i.e., bounding boxes), and semantic segmentation. This library can be run on both C++ and Python platforms. Several pre-trained DNN models are automatically downloaded to get you started quickly. 
  
-$ sudo apt-get update
-$ sudo apt-get install git cmake libpython3-dev python3-numpy
-$ git clone --recursive https://github.com/dusty-nv/jetson-inference
-$ cd jetson-inference
-$ mkdir build
-$ cd build
-$ cmake ../
-$ make -j$(nproc)
-$ sudo make install
-$ sudo ldconfig
+    $ sudo apt-get update
+    $ sudo apt-get install git cmake libpython3-dev python3-numpy
+    $ git clone --recursive https://github.com/dusty-nv/jetson-inference
+    $ cd jetson-inference
+    $ mkdir build
+    $ cd build
+    $ cmake ../
+    $ make -j$(nproc)
+    $ sudo make install
+    $ sudo ldconfig
  
 
 
