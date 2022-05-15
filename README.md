@@ -76,9 +76,7 @@ Below is a description of the features included in the NVIDIA Jetpack SDK. The J
 
 Various software’s libraries have been adopted in the purpose of developing this sign language detection system. PyTorch is one of the most popular and widely used deep learning frameworks. It provides facilities for training models with reduced precision, models which can then be exported to be optimized in TensorRT. It is estimated that TensorRT can deliver performance advantages of 40X compared to CPU-only platforms during inference, and it is built using trained neural network models. To develop this system, Python was chosen as the programming language.
 
-Software used for this project
-
-Description 	Version
+Software used for this project:
 
     Nvidia Jetpack 	4.6
     Ubuntu	18.04 LTS
@@ -89,6 +87,26 @@ Description 	Version
     gTTS	2.2.4
     playsound	20.1
     mpg123	1.25.10-1
+    
+ # Establishing the Environment 
+ 
+The JetPack SDK from NVIDIA is the most effective solution for creating AI applications. This release includes the latest OS images for Jetson products as well as libraries and APIs, samples, developer tools, and documentation.  As part of the JetPack package, a reference file system based on Ubuntu 18.04 is included. The Jetpack can be downloaded from the NVIDIA Jetpack official website on a computer. The operating system images can then be loaded into the memory card. An SSD hard drive was used for booting the operating system image to provide faster loading times.
+
+ # Setting up Jetson Inference for Object Detection 
+ 
+The Jetson Inference Is a library of TensorRT-accelerated deep learning networks for image recognition, object detection with localization (i.e., bounding boxes), and semantic segmentation. This library can be run on both C++ and Python platforms. Several pre-trained DNN models are automatically downloaded to get you started quickly. 
+ 
+$ sudo apt-get update
+$ sudo apt-get install git cmake libpython3-dev python3-numpy
+$ git clone --recursive https://github.com/dusty-nv/jetson-inference
+$ cd jetson-inference
+$ mkdir build
+$ cd build
+$ cmake ../
+$ make -j$(nproc)
+$ sudo make install
+$ sudo ldconfig
+ 
 
 
 
