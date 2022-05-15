@@ -167,6 +167,25 @@ The data collected for the purpose this program is divided into two main subsets
 
 Additionally, varying the background of the sign gesture and lighting the background of the sign gesture will improve the accuracy of the overall performance of the sign language detection.  To collect the dataset for sign language detection, the dataset has been gathered under lighting conditions, rotations of the sign, obstacles in the background, as well as variations in the shape of the sign.
 
+# Capturing the Images 
+
+![euuuu](https://user-images.githubusercontent.com/58666940/168478622-2cb6491f-a03f-46b1-b989-a8253f3b7604.jpg)
+
+There have been 1,067 photographs collected for this training. The pictures are 1280 pixels wide and 720 pixels high. The images for each class have been collected in the following manner: 120 pictures for training; 40 pictures for validation, and 40 pictures for testing.
+
+![100](https://user-images.githubusercontent.com/58666940/168478696-06ab1be6-cceb-4dda-afcf-0313e7e1df43.png)
+
+# The obtained Dataset
+
+![1](https://user-images.githubusercontent.com/58666940/168478739-15dc10c9-7470-4e8d-9014-a69f69f2c21d.png)
+
+# Prepare the Data
+
+A dataset is created using the tool in the format PASCAL (Pattern Analysis, Statistical Modeling, and Computational Learning) VOC XML format. Annotation folder stores all captured images. The figure below illustrates the data set exported in XML format.
+
+The xml code of ‘Gun sign’   
+
+![2](https://user-images.githubusercontent.com/58666940/168478954-6dcf3b0e-f37d-4931-9ba7-4bec3b037d51.png)
 
 
 
