@@ -107,8 +107,21 @@ The Jetson Inference Is a library of TensorRT-accelerated deep learning networks
     $ sudo make install
     $ sudo ldconfig
  
+Compiling can take significant time on the Jetson. The process took approximately 45 minutes. 
 
+# Install Media packages
 
+Installing (v4l-utils) packages on Ubuntu. This package contains a number of utilities for handling media such as webcams.
+
+    $ sudo apt-get install v4l-utils
+    
+# Downloading the SSD-Mobilenet-v2 Model    
+
+Jetson Inference includes many pre-trained networks for image recognition, object detection, and semantic segmentation all available for download and installation through the Model Downloader tool.
+
+When initially configuring the project, cmake will automatically run the downloader tool for you: 
+
+![ssd](https://user-images.githubusercontent.com/58666940/168477162-7edf653d-dc4b-45fe-a02c-6084984c38a1.png)
 
 
 
