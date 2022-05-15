@@ -123,7 +123,27 @@ When initially configuring the project, cmake will automatically run the downloa
 
 ![ssd](https://user-images.githubusercontent.com/58666940/168477162-7edf653d-dc4b-45fe-a02c-6084984c38a1.png)
 
+# Installing PyTorch
 
+Pytorch offers the ability to retrain the existing networks and allow custom object detection and to retrain specific applications.
 
+![PYTORCH](https://user-images.githubusercontent.com/58666940/168477309-2ae68d7a-0e67-45e7-ad5c-56460c5f3381.png)
 
+The following line are responsible for installing some build dependencies that will 
+enable OpenCV to accept a variety of video and image formats.   
 
+# Installation of video and image processing packages
+
+    $ sudo apt-get install libjpeg-dev lybpython3-dev libavcodec-dev libavformat-dev libswcale-dev
+    
+# Installing the Audio Packages (MP3 open-source audio player)
+
+    $ sudo apt install mpg123
+    
+# Install the Google Text to Speech (gTTS)
+
+    $ sudo pip3 install gTTS
+    
+# Install Play sound to play audio files
+
+    $ sudo pip3 install playsound
