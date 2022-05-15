@@ -152,9 +152,21 @@ enable OpenCV to accept a variety of video and image formats.
 
 A collection of data was collected via the (camera capture) tool. The tool creates datasets in (Pascal VOC) format for supporting during the training. Each 6 classes predict the bounding boxes of each object of that class in a test image, with associated real-valued confidence.
 
+# Launching the Tool
+
+Below are some example commands for launching the tool:
+
+    $ camera-capture csi://0       # using default MIPI CSI camera
+    $ camera-capture /dev/video0   # using V4L2 camera /dev/video0
+
+Below is the Data Capture Control window, after the Dataset Type drop-down has been set to Detection mode (do this first).
+
 ![cammm](https://user-images.githubusercontent.com/58666940/168478204-9e7df527-964c-45eb-9c47-a244fc6711a6.png)
 
 The data collected for the purpose this program is divided into two main subsets: training/validation data (trainval), and test data (test). Trainval data has been further divided into suggested training (train) and validation (val) sets for the convenience of classes. To be able to train the system effectively, the input dataset should include internal variations such as variations in shape, rotation, and orientation. In the dataset, signers rotated gestures and oriented their hands differently during data collection when they were capturing images corresponding to the same data class.  
 
 Additionally, varying the background of the sign gesture and lighting the background of the sign gesture will improve the accuracy of the overall performance of the sign language detection.  To collect the dataset for sign language detection, the dataset has been gathered under lighting conditions, rotations of the sign, obstacles in the background, as well as variations in the shape of the sign.
+
+
+
 
