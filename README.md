@@ -207,4 +207,5 @@ The label file contains one class name per line and is alphabetized (this is to 
 
 Through the training program, which is developed in Python, the dataset has been fed into the system, the data has been pre-processed, the features extracted, and the final training of the CNN has taken place.  A real-time application is being developed to convert the gesture signs into written language because of this system. The training process was conducted over 24 hours. The dataset has been trained using SSD-mobileV2 pretrained network model with 35 epochs of training network with the default batch size of 4 and two workers using the following command line. 
 
-
+    $ cd jetson-inference/python/training/detection/ssd
+    $ python3 train_ssd.py --dataset-type=voc --data=data/gesture_recognize --model-dir=models/gesture_recognize --batch-size=4 --workers=2 --epochs=35
