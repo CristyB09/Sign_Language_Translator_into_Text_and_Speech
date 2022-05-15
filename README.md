@@ -192,7 +192,7 @@ This (ImageSets) folder contains the id of each individual capture as well as 't
 ![3](https://user-images.githubusercontent.com/58666940/168479111-55cc7533-df41-4c4b-8a20-90f8c7def57d.png)
 
 The data in the (JPEGImages) folder has the original 1,067 captured images, and the file called (labels.txt). 
-There are six class labels in each hand sign: 
+This label file typically contains one class label per line, for example:
 
     Gun
     Hello
@@ -201,5 +201,10 @@ There are six class labels in each hand sign:
     Peace
     Yes
     
-This label file typically contains one class label per line, for example:
+The label file contains one class name per line and is alphabetized (this is to ensure that the ordering of classes in the label file reflects that of the related subdirectories on disk. From the label file, the tool automatically populated the necessary subdirectories for each class.  
+
+# Train the Dataset
+
+Through the training program, which is developed in Python, the dataset has been fed into the system, the data has been pre-processed, the features extracted, and the final training of the CNN has taken place.  A real-time application is being developed to convert the gesture signs into written language because of this system. The training process was conducted over 24 hours. The dataset has been trained using SSD-mobileV2 pretrained network model with 35 epochs of training network with the default batch size of 4 and two workers using the following command line. 
+
 
