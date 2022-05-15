@@ -72,6 +72,25 @@ Below is a description of the features included in the NVIDIA Jetpack SDK. The J
     •	Developer Tools - It includes tools for debugging, Nsight Eclipse Edition, and profiling with Nsight Compute, as well as a tool chain for cross-compiling applications.  
     •	Computer Vision - Toolkit for computer vision and vision processing. 
 
+# Software Selection
+
+Various software’s libraries have been adopted in the purpose of developing this sign language detection system. PyTorch is one of the most popular and widely used deep learning frameworks. It provides facilities for training models with reduced precision, models which can then be exported to be optimized in TensorRT. It is estimated that TensorRT can deliver performance advantages of 40X compared to CPU-only platforms during inference, and it is built using trained neural network models. To develop this system, Python was chosen as the programming language.
+
+Software used for this project
+
+Description 	Version
+
+    Nvidia Jetpack 	4.6
+    Ubuntu	18.04 LTS
+    Visual Studio Code (CODE OSS)	1.32.1
+    PyTorch	1.6.0
+    OpenCV	4.1.1
+    Numpy	1.13.3
+    gTTS	2.2.4
+    playsound	20.1
+    mpg123	1.25.10-1
+
+
 
 
 
