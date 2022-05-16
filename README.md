@@ -231,10 +231,13 @@ The command line of training the model:
  ## Export Model to ONNX format
  
 ONNX is an open format for models relating to machine learning and deep learning. This tool enables the conversion of deep learning and machine learning models from a variety of frameworks, including TensorFlow, PyTorch, MATLAB, Caffe, and Keras, into a single format. To be able to utilize the trained model with TensorRT, the trained model has been converted from PyTorch to ONNX using (onnx_export.py). 
+
+Next we need to convert our trained model from PyTorch to ONNX, so that we can load it with TensorRT:
 The following command line is used to export the model to Open Neural Network Exchange.
 
     $ python3 onnx_export.py --model-dir=myModel
     
+  
     
 
 
