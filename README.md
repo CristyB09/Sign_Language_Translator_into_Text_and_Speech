@@ -49,8 +49,6 @@ The present section discusses the experimental platform for the proposed real ti
 
 # Hardware Selection
 
-![CaAAAAAAAAAA](https://user-images.githubusercontent.com/58666940/168083805-43f83933-4a50-4c86-9a0b-5ca3952d5122.PNG)
-
 | Property   |  Specification | 
 |----------------|:---------:|
 | Graphical Processing Unit-GPU     |  128-core NVIDIA Maxwell | 
