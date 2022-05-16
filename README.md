@@ -216,4 +216,14 @@ The command line of training the model:
     
  ## Training Option
  
+ Observation	Default	Definition
+--data	data/	dataset location
+--model-dir	models/	output directory for the trained model 
+--resume	None	resuming training at a previous checkpoint
+
+--batch-size	
+4	number of samples processed before the model is updated, increase the amount of memory available
+--epochs	35	cycle of training data set
+--workers	2	number of data loader
+
  
