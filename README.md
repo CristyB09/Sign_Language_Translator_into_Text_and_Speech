@@ -282,19 +282,21 @@ The application can be further developed by extending the project to multiple de
  
 # References
 
-SDK, OS, and IDE:
-JETPACK SDK - Https://developer.nvidia.com/embedded/jetpack 
-Flash OS Images - https://www.balena.io/etcher 
-Visual Studio (Code OSS) repository for Ubuntu - https://github.com/toolboc/vscode
-Nvidia Library: 
-DNN Library for NVIDIA:
-https://github.com/dusty-nv/jetson-inference#system-setup
-https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md
-Deep Neural Networks Models:
-https://github.com/dusty-nv/jetson-inference/releases/tag/model-mirror-190618 
+    SDK, OS, and IDE:
+    JETPACK SDK - Https://developer.nvidia.com/embedded/jetpack 
+    
+    Flash OS Images - https://www.balena.io/etcher 
+    Visual Studio (Code OSS) repository for Ubuntu - https://github.com/toolboc/vscode
+    
+    Nvidia Library: 
+    DNN Library for NVIDIA:
+    https://github.com/dusty-nv/jetson-inference#system-setup
+    https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md
+    
+    Deep Neural Networks Models:
+    https://github.com/dusty-nv/jetson-inference/releases/tag/model-mirror-190618 
 
-Code for training support and export the model:
-
-https://github.com/dusty-nv/pytorch-ssd/tree/3f9ba554e33260c8c493a927d7c4fdaa3f388e72
+    Code for training support and export the model:
+    https://github.com/dusty-nv/pytorch-ssd/tree/3f9ba554e33260c8c493a927d7c4fdaa3f388e72
 
  
