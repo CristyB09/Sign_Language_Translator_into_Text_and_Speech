@@ -51,6 +51,17 @@ The present section discusses the experimental platform for the proposed real ti
 
 ![CaAAAAAAAAAA](https://user-images.githubusercontent.com/58666940/168083805-43f83933-4a50-4c86-9a0b-5ca3952d5122.PNG)
 
+| Property   |  Specification | 
+|----------------|:---------:|
+| Graphical Processing Unit-GPU     |  128-core NVIDIA Maxwell | 
+| Processor   | Quad-core ARM A57 (1.43 GHz) | 
+| OS type     |    64 bit  | 
+| Memory (RAM) |     2 GB LPDDR4 memory     | 
+| Operating System     |     Ubuntu    | 
+| Storage    |     SSD 240GB SATA 3     | 
+| Image capturing device |     IMX219-77 Camera for NVIDIA Jetson Nano Sensor 3280 × 2464 Resolution 8 Megapixels 160 Degree Angle of View   | 
+| Display    |     7inch HDMI LCD (H) capacitive touch display    | 
+| Audio Speaker    |     Trust Avora 2.1 PC Speaker Set with Subwoofer    | 
    
 ![Picture4](https://user-images.githubusercontent.com/58666940/168084247-908d648d-033f-4442-b2c9-2ccd718d7b31.png)
 
