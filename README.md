@@ -250,5 +250,26 @@ Following a processing period of nearly 24 hours for the training of 1,067 numbe
             /dev/video1
             
  ![Picture10](https://user-images.githubusercontent.com/58666940/168602404-6589c3b1-a78b-49bf-8471-05e604e832f2.png)
+ 
+ ## Testing at Dark Background
+ 
+ Testing during the dark has been process with an accuracy between 91-99 percent. In a night vision test, a double sign is examined
+ 
+ ![Picture11](https://user-images.githubusercontent.com/58666940/168603063-9e9db69f-7e00-4a42-bb7f-0d2a0f9cd2b6.png)
+
+ Result of SLD Test during Light and Dark Background
+ 
+ | Name of Sign       |  Light Background  | Dark Background                                               |
+|----------------|:---------:|------------------------------------------------------------|
+| Hello       |  99.9 %  | 95.3 %                            |
+| Peace  | 99.0 % | 98.4 %         |
+| Love     |    99.2 %   | 99.2 %     |
+| Yes |     99.9 %     | 99.4 %              |
+| No    |     99.1 %   | 86.6 %    |
+| Gun   |     98.3 %    | 98.8 %|
+ 
+ 
+ 
+ 
 
  
