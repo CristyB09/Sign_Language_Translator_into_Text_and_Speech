@@ -243,8 +243,12 @@ The following command line is used to export the model to Open Neural Network Ex
   
 Following a processing period of nearly 24 hours for the training of 1,067 numbers of images data through Google MobileNetV2 architecture in a Convolution neural network (CNN), the trained system was able to convert signed hand gestures into text format. A training system has been developed to translate the 6 basic words of English into sign language, and then it has been enhanced to translate sentences instead of individual words using dual hand gestures. Tests of the trained sign language model have been performed using the (detectnet.py) Pytorch script. To load the SSD-Mobilenet ONNX model, the command line from figure below has been added to detectnet (or detectnet.py).
     
+ Load and process the model to TensorRT:    
 
     detectnet --model=models/gesture_recognize/ssd-mobilenet.onnx --labels=models/gesture_recognize/labels.txt 
           --input-blob=input_0 --output-cvg=scores --output-bbox=boxes 
             /dev/video1
+            
+ ![Picture10](https://user-images.githubusercontent.com/58666940/168602404-6589c3b1-a78b-49bf-8471-05e604e832f2.png)
+
  
