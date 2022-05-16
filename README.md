@@ -2,7 +2,7 @@
     
  ## PROJECT AIMS
  
-   • The aim of this study is to find the possibilities of using Deep Neural Network (DNN) for translating sign languages into speech and text format through human       hand gestures.
+ ####  The aim of this study is to find the possibilities of using Deep Neural Network (DNN) for translating sign languages into speech and text format through human       hand gestures.
  
    • The main objective of this study is to explore the feasibility of introducing a vision-based application,
     for the translation of the sign language to eradicate communication barriers between the hearing
