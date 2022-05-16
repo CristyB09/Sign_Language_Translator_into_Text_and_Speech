@@ -228,7 +228,14 @@ The command line of training the model:
 | `--epochs`     |     35    | cycle of training data set    |
 | `--workers`    |     2     | number of data loader threads (0 = disable multithreading) |
  
+ ## Export Model to ONNX format
  
+ONNX is an open format for models relating to machine learning and deep learning. This tool enables the conversion of deep learning and machine learning models from a variety of frameworks, including TensorFlow, PyTorch, MATLAB, Caffe, and Keras, into a single format. To be able to utilize the trained model with TensorRT, the trained model has been converted from PyTorch to ONNX using (onnx_export.py). 
+The following command line is used to export the model to Open Neural Network Exchange.
+
+    $ python3 onnx_export.py --model-dir=myModel
+    
+    
 
 
  
