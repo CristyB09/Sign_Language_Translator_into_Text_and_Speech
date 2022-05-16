@@ -267,9 +267,34 @@ Following a processing period of nearly 24 hours for the training of 1,067 numbe
 | Yes |     99.9 %     | 99.4 %              |
 | No    |     99.1 %   | 86.6 %    |
 | Gun   |     98.3 %    | 98.8 %|
+
+# Project Objectives
+
+ To reach the project objectives, all requirements and objectives have been met. The previous chapter explains how this was accomplished. A Convolution Neural Network is capable of detecting Sign Language with an accuracy of 99.9% in the final test. An analysis of 20 epochs of CNN data was conducted to determine the accuracy of this test. Several challenges have been overcome to reach this result.
+
+The results of this project were obtained with the help of a computer vision system developed using the CNN architecture and a Jetson Nano kit as the hardware. An implementation made with Python programming languages was employed to create the system.  As a result of retraining the SSD-MobileNetV2 model, 99.9% of accuracy of test was achieved at both light background and dark background.  Obtaining a higher level of accuracy can justify the test method most importantly. This implies that the system can detect the given sign gestures to which it has been trained. The results of the project indicate that gesture signs of dual-hand sign language can be transferred into text format and displayed as worlds and even as full sentences. 
+
+ # Further Development
  
+To recommend further development and commercial opportunity that should be made for this convolutional neural network-based sign language detection project, it is necessary to identify some limitations. The project should be extended to more proficient and fluent users since the goal of the study is to facilitate the communication of deaf persons. It will be possible to increase the number of gestures by introducing additional classes and, using the evaluation methods, determine the best approach. Deaf people and businesses and service providers can both benefit from an expanded translation service that is useful and convenient.
+
+The application can be further developed by extending the project to multiple devices including smartphones, tablets, laptops, and desktops. It can be extended to translate in real-time and interpret any sign language, as well as integrated into many products, such as video chat applications, AI assistants, etc. As an extension of the project, a pocket interpreter for the deaf community could be developed, with translation taking place on the cloud. The device should have a camera facing the signing person and should be connected to the internet.
  
- 
- 
+# References
+
+SDK, OS, and IDE:
+JETPACK SDK - Https://developer.nvidia.com/embedded/jetpack 
+Flash OS Images - https://www.balena.io/etcher 
+Visual Studio (Code OSS) repository for Ubuntu - https://github.com/toolboc/vscode
+Nvidia Library: 
+DNN Library for NVIDIA:
+https://github.com/dusty-nv/jetson-inference#system-setup
+https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md
+Deep Neural Networks Models:
+https://github.com/dusty-nv/jetson-inference/releases/tag/model-mirror-190618 
+
+Code for training support and export the model:
+
+https://github.com/dusty-nv/pytorch-ssd/tree/3f9ba554e33260c8c493a927d7c4fdaa3f388e72
 
  
