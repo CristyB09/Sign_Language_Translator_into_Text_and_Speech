@@ -205,7 +205,7 @@ This label file typically contains one class label per line, for example:
     
 The label file contains one class name per line and is alphabetized (this is to ensure that the ordering of classes in the label file reflects that of the related subdirectories on disk. From the label file, the tool automatically populated the necessary subdirectories for each class.  
 
-# Train the Dataset
+# Training the SSD-Mobilenet Model
 
 Through the training program, which is developed in Python, the dataset has been fed into the system, the data has been pre-processed, the features extracted, and the final training of the CNN has taken place.  A real-time application is being developed to convert the gesture signs into written language because of this system. The training process was conducted over 24 hours. The dataset has been trained using SSD-mobileV2 pretrained network model with 35 epochs of training network with the default batch size of 4 and two workers using the following command line. 
 
@@ -216,14 +216,20 @@ The command line of training the model:
     
  ## Training Option
  
- Observation	Default	Definition
---data	data/	dataset location
---model-dir	models/	output directory for the trained model 
---resume	None	resuming training at a previous checkpoint
+ ![tttty](https://user-images.githubusercontent.com/58666940/168588009-dfd32508-e413-46e4-abbe-a793b2a2089a.PNG)
+ 
+ Here are some common options that you can run the training script with:
 
---batch-size	
-4	number of samples processed before the model is updated, increase the amount of memory available
---epochs	35	cycle of training data set
---workers	2	number of data loader
+| Argument       |  Default  | Description                                                |
+|----------------|:---------:|------------------------------------------------------------|
+| `--data`       |  `data/`  | the location of the dataset                                |
+| `--model-dir`  | `models/` | directory to output the trained model checkpoints          |
+| `--resume`     |    None   | path to an existing checkpoint to resume training from     |
+| `--batch-size` |     4     | try increasing depending on available memory               |
+| `--epochs`     |     30    | up to 100 is desirable, but will increase training time    |
+| `--workers`    |     2     | number of data loader threads (0 = disable multithreading) |
+ 
+ 
+
 
  
