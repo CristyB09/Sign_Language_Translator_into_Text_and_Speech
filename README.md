@@ -215,18 +215,17 @@ The command line of training the model:
     $ python3 train_ssd.py --dataset-type=voc --data=data/gesture_recognize --model-dir=models/gesture_recognize --batch-size=4 --workers=2 --epochs=35
     
  ## Training Option
- 
- ![tttty](https://user-images.githubusercontent.com/58666940/168588009-dfd32508-e413-46e4-abbe-a793b2a2089a.PNG)
- 
- Here are some common options that you can run the training script with:
+
+
+ Here are some common options that you can run the training script with. The used training option for this project are:
 
 | Argument       |  Default  | Description                                                |
 |----------------|:---------:|------------------------------------------------------------|
 | `--data`       |  `data/`  | the location of the dataset                                |
-| `--model-dir`  | `models/` | directory to output the trained model checkpoints          |
+| `--model-dir`  | `models/` | output directory for the trained model         |
 | `--resume`     |    None   | path to an existing checkpoint to resume training from     |
 | `--batch-size` |     4     | try increasing depending on available memory               |
-| `--epochs`     |     30    | up to 100 is desirable, but will increase training time    |
+| `--epochs`     |     35    | cycle of training data set    |
 | `--workers`    |     2     | number of data loader threads (0 = disable multithreading) |
  
  
