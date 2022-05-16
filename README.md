@@ -56,7 +56,7 @@ The present section discusses the experimental platform for the proposed real ti
 
     Block Diagram of Hardware Design
     
-# Jetson Nano Developer Kit
+## Jetson Nano Developer Kit
 
 The system has connection to the monitor display, audio speaker, mouse, keyboard, SSD-hard drive, Wi-Fi and power supply.
 
@@ -76,7 +76,7 @@ Below is a description of the features included in the NVIDIA Jetpack SDK. The J
 
 Various software’s libraries have been adopted in the purpose of developing this sign language detection system. PyTorch is one of the most popular and widely used deep learning frameworks. It provides facilities for training models with reduced precision, models which can then be exported to be optimized in TensorRT. It is estimated that TensorRT can deliver performance advantages of 40X compared to CPU-only platforms during inference, and it is built using trained neural network models. To develop this system, Python was chosen as the programming language.
 
-Software used for this project:
+## Software used for this project:
 
     Nvidia Jetpack 	4.6
     Ubuntu	18.04 LTS
@@ -88,11 +88,11 @@ Software used for this project:
     playsound	20.1
     mpg123	1.25.10-1
     
- # Establishing the Environment 
+ ## Establishing the Environment 
  
 The JetPack SDK from NVIDIA is the most effective solution for creating AI applications. This release includes the latest OS images for Jetson products as well as libraries and APIs, samples, developer tools, and documentation.  As part of the JetPack package, a reference file system based on Ubuntu 18.04 is included. The Jetpack can be downloaded from the NVIDIA Jetpack official website on a computer. The operating system images can then be loaded into the memory card. An SSD hard drive was used for booting the operating system image to provide faster loading times.
 
- # Setting up Jetson Inference for Object Detection 
+ ## Setting up Jetson Inference for Object Detection 
  
 The Jetson Inference Is a library of TensorRT-accelerated deep learning networks for image recognition, object detection with localization (i.e., bounding boxes), and semantic segmentation. This library can be run on both C++ and Python platforms. Several pre-trained DNN models are automatically downloaded to get you started quickly. 
  
@@ -109,13 +109,13 @@ The Jetson Inference Is a library of TensorRT-accelerated deep learning networks
  
 Compiling can take significant time on the Jetson. The process took approximately 45 minutes. 
 
-# Install Media packages
+## Install Media packages
 
 Installing (v4l-utils) packages on Ubuntu. This package contains a number of utilities for handling media such as webcams.
 
     $ sudo apt-get install v4l-utils
     
-# Downloading the SSD-Mobilenet-v2 Model    
+## Downloading the SSD-Mobilenet-v2 Model    
 
 Jetson Inference includes many pre-trained networks for image recognition, object detection, and semantic segmentation all available for download and installation through the Model Downloader tool.
 
@@ -123,7 +123,7 @@ When initially configuring the project, cmake will automatically run the downloa
 
 ![ssd](https://user-images.githubusercontent.com/58666940/168477162-7edf653d-dc4b-45fe-a02c-6084984c38a1.png)
 
-# Installing PyTorch
+## Installing PyTorch
 
 Pytorch offers the ability to retrain the existing networks and allow custom object detection and to retrain specific applications.
 
@@ -132,19 +132,19 @@ Pytorch offers the ability to retrain the existing networks and allow custom obj
 The following line are responsible for installing some build dependencies that will 
 enable OpenCV to accept a variety of video and image formats.   
 
-# Installation of video and image processing packages
+## Installation of video and image processing packages
 
     $ sudo apt-get install libjpeg-dev lybpython3-dev libavcodec-dev libavformat-dev libswcale-dev
     
-# Installing the Audio Packages (MP3 open-source audio player)
+## Installing the Audio Packages (MP3 open-source audio player)
 
     $ sudo apt install mpg123
     
-# Install the Google Text to Speech (gTTS)
+## Install the Google Text to Speech (gTTS)
 
     $ sudo pip3 install gTTS
     
-# Install Play sound to play audio files
+## Install Play sound to play audio files
 
     $ sudo pip3 install playsound
     
@@ -152,7 +152,7 @@ enable OpenCV to accept a variety of video and image formats.
 
 A collection of data was collected via the (camera capture) tool. The tool creates datasets in (Pascal VOC) format for supporting during the training. Each 6 classes predict the bounding boxes of each object of that class in a test image, with associated real-valued confidence.
 
-# Launching the Tool
+## Launching the Tool
 
 Below are some example commands for launching the tool:
 
@@ -167,7 +167,7 @@ The data collected for the purpose this program is divided into two main subsets
 
 Additionally, varying the background of the sign gesture and lighting the background of the sign gesture will improve the accuracy of the overall performance of the sign language detection.  To collect the dataset for sign language detection, the dataset has been gathered under lighting conditions, rotations of the sign, obstacles in the background, as well as variations in the shape of the sign.
 
-# Capturing the Images 
+## Capturing the Images 
 
 ![euuuu](https://user-images.githubusercontent.com/58666940/168478622-2cb6491f-a03f-46b1-b989-a8253f3b7604.jpg)
 
@@ -175,7 +175,7 @@ There have been 1,067 photographs collected for this training. The pictures are 
 
 ![100](https://user-images.githubusercontent.com/58666940/168478696-06ab1be6-cceb-4dda-afcf-0313e7e1df43.png)
 
-# The obtained Dataset
+## The obtained Dataset
 
 ![1](https://user-images.githubusercontent.com/58666940/168478739-15dc10c9-7470-4e8d-9014-a69f69f2c21d.png)
 
@@ -193,6 +193,8 @@ This (ImageSets) folder contains the id of each individual capture as well as 't
 
 The data in the (JPEGImages) folder has the original 1,067 captured images, and the file called (labels.txt). 
 This label file typically contains one class label per line, for example:
+
+## Class labels
 
     Gun
     Hello
@@ -213,3 +215,5 @@ The command line of training the model:
     $ python3 train_ssd.py --dataset-type=voc --data=data/gesture_recognize --model-dir=models/gesture_recognize --batch-size=4 --workers=2 --epochs=35
     
  ## Training Option
+ 
+ 
