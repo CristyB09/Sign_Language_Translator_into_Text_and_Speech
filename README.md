@@ -238,7 +238,10 @@ The following command line is used to export the model to Open Neural Network Ex
     $ python3 onnx_export.py --model-dir=models/gesture_recognize
     
  This will save a model called gesture_recognize.onnx under jetson-inference/python/training/detection/ssd/models/gesture_recognize
+ 
+ # Testing The Trained Model
   
+Following a processing period of nearly 24 hours for the training of 1,067 numbers of images data through Google MobileNetV2 architecture in a Convolution neural network (CNN), the trained system was able to convert signed hand gestures into text format. A training system has been developed to translate the 6 basic words of English into sign language, and then it has been enhanced to translate sentences instead of individual words using dual hand gestures. Tests of the trained sign language model have been performed using the (detectnet.py) Pytorch script. To load the SSD-Mobilenet ONNX model, the command line from figure below has been added to detectnet (or detectnet.py).
     
 
 
