@@ -205,7 +205,7 @@ This label file typically contains one class label per line, for example:
     
 The label file contains one class name per line and is alphabetized (this is to ensure that the ordering of classes in the label file reflects that of the related subdirectories on disk. From the label file, the tool automatically populated the necessary subdirectories for each class.  
 
-# Training the SSD-Mobilenet Model
+# Training the Dataset
 
 Through the training program, which is developed in Python, the dataset has been fed into the system, the data has been pre-processed, the features extracted, and the final training of the CNN has taken place.  A real-time application is being developed to convert the gesture signs into written language because of this system. The training process was conducted over 24 hours. The dataset has been trained using SSD-mobileV2 pretrained network model with 35 epochs of training network with the default batch size of 4 and two workers using the following command line. 
 
@@ -235,8 +235,9 @@ ONNX is an open format for models relating to machine learning and deep learning
 Next we need to convert our trained model from PyTorch to ONNX, so that we can load it with TensorRT:
 The following command line is used to export the model to Open Neural Network Exchange.
 
-    $ python3 onnx_export.py --model-dir=myModel
+    $ python3 onnx_export.py --model-dir=models/gesture_recognize
     
+ This will save a model called gesture_recognize.onnx under jetson-inference/python/training/detection/ssd/models/gesture_recognize
   
     
 
