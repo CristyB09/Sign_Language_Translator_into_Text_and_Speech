@@ -1,11 +1,8 @@
  # Sign Language Translator into text and speech
-    
+   
+https://user-images.githubusercontent.com/58666940/191355191-1e548fbc-4bd9-4f8f-811e-9f7d8c8c9107.mp4
 
-https://user-images.githubusercontent.com/58666940/191354681-957bb9a8-745e-44e2-828c-4f1e63537840.mp4
-
-https://user-images.githubusercontent.com/58666940/191354725-c24780c5-e22b-4b11-a321-64b206d5833d.mp4
-
-
+https://user-images.githubusercontent.com/58666940/191355211-76be2e11-9e5d-4ca1-b103-865ddeaeef6e.mp4
 
  ## PROJECT AIMS
  
